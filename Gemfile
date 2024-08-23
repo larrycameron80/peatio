@@ -67,7 +67,7 @@ gem 'phonelib', '~> 0.3.5'
 gem 'twilio-ruby', '~> 3.11'
 gem 'unread', github: 'peatio/unread'
 gem 'carrierwave', '~> 0.10.0'
-gem 'simple_captcha2', require: 'simple_captcha'
+gem 'simple_captcha2', '>= 0.3.0', require: 'simple_captcha'
 gem 'rest-client', '~> 1.6.8'
 
 group :development, :test do
@@ -80,7 +80,7 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'pry-rails'
   gem 'quiet_assets'
-  gem 'mails_viewer'
+  gem 'mails_viewer', '>= 0.2.0'
   gem 'timecop'
   gem 'dotenv-rails'
   gem 'rspec-rails'
